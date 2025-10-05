@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Arena</h1>
+            <p>Get real-time weather information for any location</p>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="location-input" placeholder="Enter city name or ZIP code">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+        
+        <div class="error" id="error">
+            <p>Failed to fetch weather data. Please check the location and try again.</p>
+        </div>
+        
+        <div class="weather-info" id="weather-info">
+            <div class="location" id="location">London</div>
+            <div class="date" id="date">Monday, January 1, 2023</div>
+            <div class="temperature" id="temperature">15°C</div>
+            <div class="weather-icon">
+                <img id="weather-icon" src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="Weather Icon">
+            </div>
+            <div class="description" id="description">Partly cloudy</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <div class="label">Feels Like</div>
+                    <div class="value" id="feels-like">16°C</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Humidity</div>
+                    <div class="value" id="humidity">65%</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Wind Speed</div>
+                    <div class="value" id="wind-speed">10 km/h</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Pressure</div>
+                    <div class="value" id="pressure">1015 mb</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Powered by WeatherArena.com</p>
+        </div>
+    </div>
+
+   <script src="./index.js"></script>
+</body>
+</html>
