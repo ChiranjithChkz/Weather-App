@@ -127,7 +127,7 @@ Helps users quickly check weather conditions before planning activities.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/ChiranjithChkz/Weather-App.git
 ```
 
 Open project folder:
@@ -186,13 +186,13 @@ If you like this project, give it a ⭐ on GitHub!
 
 # 👨‍💻 Developer
 
-Made with ❤️ by **Your Name**
+Made  by **CHIRANJITH CHAKMA**
 
 ---
 
 # 📜 License
 
-This project is licensed under the MIT License.
+This project can be used for educational purpose.
 
 ---
 
